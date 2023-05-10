@@ -1,5 +1,6 @@
 <h2 [ngStyle]="{'font-size': size + 'px','font-family':font, 'color':color  }">Testando diretirva</h2>
 <h2 [ngClass]="classes" >diretiva de classe 0 </h2>
-<h2 ngClass="classes" >diretiva de classe  1 </h2>
+<h2 [ngClass]="classes" >diretiva de classe  1 </h2>
 
-<h2 ngClass="underlinee" >diretiva de classe 2</h2>
+<h2 [ngClass]="underline" >diretiva de classe 2</h2>
+<a href="#" [ngClass]="underline" >diretiva de classe 3</a>
